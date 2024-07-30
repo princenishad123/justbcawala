@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
   return (
     <div className={`${theme == "dark" ? "dark" : "light"} overflow-hidden`}>
       <Navbar />
-      <main className="w-full px-3  md:px-12 overflow-y-scroll dark:bg-slate-800 dark:text-white wrapper">
+      <main className="w-full px-3  md:px-12 overflow-y-scroll dark:bg-slate-900 dark:text-white wrapper">
         {children}
       </main>
       <Footer />

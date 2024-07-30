@@ -42,7 +42,7 @@ const CourseRead = () => {
         {/* code topics here.... */}
         <div
           ref={sidebarRef}
-          className="courseTopics max-md:fixed md:relative bg-white dark:bg-slate-800 left-0 max-md:top-12 top-0  w-[300px]  border-r border-l border-b border-t border-slate-200 dark:border-slate-600 "
+          className="courseTopics max-md:fixed md:relative bg-white dark:bg-slate-900 left-0 max-md:top-12 top-0  w-[300px]  border-r border-l border-b border-t border-slate-200 dark:border-slate-600 "
         >
           <button
             onClick={handleTopicSidebar}
