@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+.wrapper{
+   height: calc(100vh);
+   padding: 56px 0px;
+}
+
+.wrapper::-webkit-scrollbar {
+   width: 0px;
+}
+
+   .thumnailsTitle {
+         width: 320px;
+         display: -webkit-box;
+         -webkit-line-clamp: 2;
+         -webkit-box-orient: vertical;
+         overflow: hidden;
+         padding: 0px 8px;
+      
+}
+.courseTopics{
+   height: calc(100vh - 112px);
+   transition: 0.2s;
+}
+nav{
+   background-color: rgba(255, 255, 255, 0.504);
+}
+.navbar{
+   background-color: rgba(9, 9, 9, 0.395);
+}
+}
+
