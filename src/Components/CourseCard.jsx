@@ -9,7 +9,12 @@ const CourseCard = ({ thumbnail, title, id }) => {
   const navigate = useNavigate();
 
   const handleDelete = (courseId) => {
-    console.log(courseId);
+    let password = prompt("Please Enter Password");
+    console.log(password);
+
+    if (password != "Prince@410525") {
+      return toast.error("wrong password");
+    }
     services
       .deleteDoc("courses", courseId) //required  parameter : CollectionName, id
       .then((res) => {
