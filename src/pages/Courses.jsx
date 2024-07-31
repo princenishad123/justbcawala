@@ -17,7 +17,7 @@ const Courses = () => {
           console.log(err);
         });
     })();
-  }, [allCourses]);
+  }, []);
   return (
     <Layout>
       {allCourses.length > 0 ? "" : <Loader />}

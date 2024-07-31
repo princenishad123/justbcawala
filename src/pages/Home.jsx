@@ -3,7 +3,6 @@ import Layout from "../Layout/Layout";
 import Loader from "../Components/Loader/Loader";
 
 const Home = () => {
-  console.log("hello");
   const [isLoader, setIsloader] = useState(false);
   useEffect(() => {
     window.addEventListener("onload", () => {
