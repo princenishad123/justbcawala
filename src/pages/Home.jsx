@@ -12,13 +12,13 @@ const Home = () => {
   return (
     <Layout>
       {isLoader ? <Loader /> : ""}
-      <div className="w-full h-full grid place-content-center">
-        <h1 className="text-7xl font-semibold">Welcome to tech world!</h1>
+      <div className="w-full  h-auto">
+        <h1 className="text-7xl font-semibold max-sm:text-xl text-center">
+          Welcome to tech world!
+        </h1>
 
-        <span className="text-center text-xl drop-shadow-lg ">
-          Home page is under maintaning
-        </span>
-        <span className="text-center">Created by Prince Nishad</span>
+        <p className="text-center">Home page is under maintaning</p>
+        <p className="text-center">Created by Prince Nishad</p>
       </div>
     </Layout>
   );

@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { CiDark } from "react-icons/ci";
 import { CiLight } from "react-icons/ci";
 import myContext from "../context/myContext";
@@ -14,6 +14,7 @@ const Navbar = () => {
       setTheme("dark");
     }
   };
+
   return (
     <nav className=" backdrop-blur-lg dark:navbar  dark:text-white w-full h-12 fixed top-0 px-1 md:px-12 flex items-center justify-between">
       <div>

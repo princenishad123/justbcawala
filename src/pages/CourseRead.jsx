@@ -73,7 +73,9 @@ const CourseRead = () => {
         <div className="w-full">
           <div>
             <h2 className="text-xl font-semibold my-2">topics name</h2>
-            <p>{chapters[indexNumber]?.description}</p>
+            <pre className="text-wrap">
+              {chapters[indexNumber]?.description}
+            </pre>
           </div>
           <div className="px-2 py-4">
             <h1 className="text-xl font-semibold">Example :</h1>
